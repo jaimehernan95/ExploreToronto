@@ -4,9 +4,9 @@ namespace torontoExplore.controller
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "hi";
+            return View();
         }
     }
 }
